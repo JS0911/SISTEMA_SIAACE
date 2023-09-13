@@ -4,7 +4,7 @@
     private $hostName = 'localhost';
     private $dbName = 'siaace';
     private $userName = 'root';
-    private $password = 'Teamomami2001';
+    private $password = 'lunamar123';
 
     #Abrir conexión al servidor de MySQL
     public function abrirConexionDB(){

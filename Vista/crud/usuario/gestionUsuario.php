@@ -24,9 +24,9 @@ session_start(); //Reanudamos la sesion
   <!-- Boxicons CSS -->
   <link flex href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
   <!-- Estilos personalizados -->
-  <link href="http://localhost:90/APP_COOPERATIVA_SISTEMAWEB/Recursos/css/gestionUsuario.css" rel="stylesheet" />
-  <link href="http://localhost:90/APP_COOPERATIVA_SISTEMAWEB/Recursos/css/modalNuevoUsuario.css" rel="stylesheet">
-  <link href='http://localhost:90/APP_COOPERATIVA_SISTEMAWEB/Recursos/css/layout/sidebar.css' rel='stylesheet'>
+  <link href="http://localhost:90/SISTEMA_SIAACE/Recursos/css/gestionUsuario.css" rel="stylesheet" />
+  <link href="http://localhost:90/SISTEMA_SIAACE/Recursos/css/modalNuevoUsuario.css" rel="stylesheet">
+  <link href='http://localhost:90/SISTEMA_SIAACE/Recursos/css/layout/sidebar.css' rel='stylesheet'>
   <title> Mantenimiento Usuario </title>
 </head>
 
@@ -76,11 +76,11 @@ session_start(); //Reanudamos la sesion
   <script src="../../../Recursos/js/librerias//jQuery-3.7.0.min.js"></script>
   <script src="//cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
   <!-- Scripts propios -->
-  <script src="http://localhost:90/APP_COOPERATIVA_SISTEMAWEB/Recursos/js/dataTable.js" type="module"></script>
-  <script src="http://localhost:90/APP_COOPERATIVA_SISTEMAWEB/Recursos/js/librerias/jquery.inputlimiter.1.3.1.min.js"></script>
-  <script src="http://localhost:90/APP_COOPERATIVA_SISTEMAWEB/Recursos/js/validacionesModalNuevoUsuario.js" type="module"></script>
-  <script src="http://localhost:90/APP_COOPERATIVA_SISTEMAWEB/Recursos/js/validacionesModalEditarUsuario.js" type="module"></script>
-  <script src="http://localhost:90/APP_COOPERATIVA_SISTEMAWEB/Recursos/boostrap5/bootstrap.min.js"></script>
-  <script src="http://localhost:90/APP_COOPERATIVA_SISTEMAWEB/Recursos/js/index.js"></script>
+  <script src="http://localhost:90/SISTEMA_SIAACE/Recursos/js/dataTable.js" type="module"></script>
+  <script src="http://localhost:90/SISTEMA_SIAACE/Recursos/js/librerias/jquery.inputlimiter.1.3.1.min.js"></script>
+  <script src="http://localhost:90/SISTEMA_SIAACE/Recursos/js/validacionesModalNuevoUsuario.js" type="module"></script>
+  <script src="http://localhost:90/SISTEMA_SIAACE/Recursos/js/validacionesModalEditarUsuario.js" type="module"></script>
+  <script src="http://localhost:90/SISTEMA_SIAACE/Recursos/boostrap5/bootstrap.min.js"></script>
+  <script src="http://localhost:90/SISTEMA_SIAACE/Recursos/js/index.js"></script>
 </body>
 </html>
