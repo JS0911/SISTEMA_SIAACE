@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;   
+    box-sizing: border-box;
+} 
+body {
+    min-height: 100vh;
+    background-color: #39637e;
+    background: linear-gradient(85deg, #5ff3da 20%, #6c83d6 80%);
+} 
+
+.ancho{
+    min-height: inherit;
+    display: flex;
+    justify-content:center; /*Alineacion en horizontal*/
+    align-items:center; /*Alineacion en vertical*/
+}
+.wrap-input {
+    position: relative;
+}
+form {
+    padding: 35px;
+    background-color: rgb(227, 232, 234);
+    height: min-content;
+    width: 60%;
+    font-size: 15px;
+    border-radius:60px;
+    box-shadow: 20px 20px 15px 0px #10438a ;
+}
+/* .formulario__input-error {
+	font-size: 12px;
+	margin-bottom: 0;
+	display: none;
+} */
+.btn {
+    display: block;
+    width: 30%;
+    height: 35px;
+    margin: 5px auto ;
+    background-color: rgb(112, 175, 200);
+    border:none;
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 5px 10px 10px 0px #587e99 ;
+}
+.conteiner-icon{
+    position: absolute;
+    right: 0;
+    /* Para centrar icono */
+    top: 20px;
+    height: 13%;
+    transform: translateY(-50%);
+}
+.btn:hover{
+    background-color: rgb(110, 167, 218);
+    color: #517080;
+ }
+.icon {
+    display: block;
+    margin: 15px;
+    font-size: 20px;
+}
+.lock{
+    cursor: pointer;
+}
+.logo-empresa{
+    margin-bottom: 30px;
+    text-align: center;
+  
+   
+}
+.form-label {
+    margin-block-start: 10px;
+    font-size: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.form-control {
+    padding-left: 5px;
+}
+.mensaje-error {
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: #96bc9f;
+    color: green;
+}
+
+.input-container{
+    display: grid;
+}
+
+.form-grupo{
+    width: 60%;
+    margin: 15px;
+    padding: 10px;
+    margin-bottom:0px;
+    padding-bottom: 0px;
+}
+/* .form-control__Validacion-estado {
+	position: absolute;
+	right: 10px;
+	bottom: 15px;
+	z-index: 100;
+	font-size: 16px;
+	opacity: 0;
+
+} */
+
+.titulo-registro{
+    text-align: center;
+    background-color: #1a0473;
+    color: #e2f0fd;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 40px;
+    padding: 10px;
+    border-radius: 50px;
+   
+}
+.mensaje {
+    position: absolute;
+    color: red;
+    font-size: 12px;
+}
+.mensaje_error {
+    box-shadow: 0 0 0 .15rem rgba(225, 94, 62, 0.676);
+    border-color: red;
+}
+.mensaje_error:focus {
+    box-shadow: 0 0 0 .25rem rgba(226, 73, 35, 0.455);
+    border-color: red;
+}
+/* ----- -----  Estilos para Validacion ----- ----- */
+/* .form-control-correcto .form-control__Validacion-estado {
+	color: #1ed12d;
+	opacity: 1;
+}
+.form-control-incorrecto .form-control__Validacion-estado {
+	color: #bb2929;
+	opacity: 1;
+} */
+
+
